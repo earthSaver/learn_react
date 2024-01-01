@@ -1,13 +1,15 @@
 import React from 'react';
-import Greeting from './components/Greeting';
+import Header from './components/Header';
+import Siderbar from './components/Sidebar';
+import Main from './components/Main';
+import "./index.css"
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <h1>Hello, World!</h1>
-      <Greeting/>
-    </div>
+    <>
+      <Header/>
+      <Siderbar/>
+      <Main/>
+    </>
   );
 }
-
-export default App;
