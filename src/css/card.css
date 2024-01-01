@@ -1,4 +1,52 @@
 .card {
     background-color: lightskyblue;
-    height: 100px;
+}
+
+.card-img-container {
+    background-color: white;
+
+    position: relative;
+    width: 100%;
+}
+
+.card-img {
+    border-radius: 2px;
+    width: 100%;
+}
+
+.card-duration {
+    background-color: white;
+    border-radius: 5px;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 12px;
+    right: 8px;
+
+    padding: 3px;
+}
+
+.card-hot {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 8px;
+    left: 8px;
+
+    padding: 3px;
 }

@@ -6,3 +6,21 @@
     column-gap: 10px;
     row-gap: 10px;
 }
+
+@media (max-width: 750px) {
+    .main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .main {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1300px) {
+    .main {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
