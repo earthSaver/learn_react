@@ -8,6 +8,7 @@ export default function Card(props) {
                 <img className="card-img" src={`../images/${props.item.img}`} alt={props.item.img}/>
                 <div className="card-duration">{props.item.duration}</div>
                 {props.item.hot && <div className="card-hot">HOT</div>}
+                <div className="card-tip">Card Tip Test hahaha</div>
             </div>
             <div className="card-info">
                 {props.item.info ? props.item.info: "Default Info"}

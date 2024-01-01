@@ -14,3 +14,7 @@
 
     font-weight: bold;
 }
+
+.header:hover {
+    background-color: rgb(173, 146, 137);
+}

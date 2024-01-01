@@ -2,7 +2,6 @@
     background-color: gray;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 10px;
 }
@@ -10,6 +9,12 @@
 @media (max-width: 750px) {
     .main {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and  (max-width: 999px){
+    .main {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
