@@ -3,6 +3,7 @@ import "../css/box.css"
 
 export default function Card(props) {
     const styles = {
+        // use ternary to dynamically change the style
         backgroundColor: props.on ? "lightblue": "transparent"
     }
     return (

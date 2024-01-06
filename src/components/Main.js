@@ -18,11 +18,13 @@ export default function Main() {
         }))
     }
     
+    // use state data to render
     const box_components = squares.map(square => (
         <Box 
             key={square.id}
             on={square.on}
-            toggle={()=>toggle(square.id)}
+            // use inline function to pass parameters
+            toggle={() => toggle(square.id)}
         />
     ))
 
